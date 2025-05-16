@@ -1,0 +1,14 @@
+[
+  {
+    "username": "usuario1",
+    "email": "usuario1@example.com",
+    "password": "clave123",
+    "registrationDate": "2023-01-02T00:00:00.000Z"
+  },
+  {
+    "username": "Juan",
+    "email": "juan@gmail.com",
+    "password": "Juan1499",
+    "registrationDate": "2023-01-02T00:00:00.000Z"
+  }
+]

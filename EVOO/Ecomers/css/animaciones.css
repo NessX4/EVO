@@ -1,0 +1,66 @@
+/* Estilos para las animaciones */
+.producto {
+    transition: box-shadow 0.3s ease;
+    transform-origin: center bottom;
+}
+
+.marca {
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.modal-contenido {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    position: relative;
+    transform-origin: center;
+}
+
+.modal-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #333;
+}
+
+.numerito {
+    transition: all 0.3s ease;
+    display: inline-block;
+    transform-origin: center;
+}
+
+/* Efecto para botones al hacer hover */
+.boton-menu:hover, .producto-agregar:hover {
+    transform: translateY(-2px);
+}
+
+/* Efecto para el icono de chat */
+.chat-icon {
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.chat-icon:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/Ecomers/css/main.css">
+    <link rel="stylesheet" href="/Ecomers/css/configuracion.css">
+    <link rel="stylesheet" href="/Ecomers/css/usuario.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo">EVOshop</div>
+                <div class="user-status">
+                    <i class="fas fa-circle online-icon"></i>
+                    <span>En línea</span>
+                </div>
+            </div>
+            
+            <nav class="menu">
+                <button class="boton-menu" onclick="window.location.href='index.html'">
+                    <i class="fas fa-home"></i> Inicio
+                </button>
+                <button class="boton-menu" onclick="window.location.href='usuario.html'">
+                    <i class="fas fa-user"></i> Perfil
+                </button>
+                <button class="boton-menu active">
+                    <i class="fas fa-history" onclick="window.location.href='historial.html'"></i> Historial
+                </button>
+                <button class="boton-menu" onclick="window.location.href='configuracion.html'">
+                    <i class="fas fa-cog"></i> Configuración
+                </button>
+                <button class="boton-menu" id="logout">
+                    <i class="fas fa-sign-out-alt" onclick="window.location.href='login.html'"></i> Cerrar Sesión
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>EVOshop v2.0</p>
+                <p>&copy; 2025 Todos los derechos reservados</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="configuracion-header">
+                <h1 class="titulo-principal">
+                    <span>Personaliza tu experiencia</span>
+                    <div class="title-decoration"></div>
+                </h1>
+                <p class="subtitulo">Ajusta los colores y preferencias de la aplicación</p>
+            </div>
+            
+            <div class="configuracion-container">
+                <div class="configuracion-seccion">
+                    <h2><i class="fas fa-palette"></i> Tema y colores</h2>
+                    
+                    <div class="color-picker-group">
+                        <div class="color-option">
+                            <label for="color-main">Color principal</label>
+                            <input type="color" id="color-main" value="#052946">
+                        </div>
+                        
+                        <div class="color-option">
+                            <label for="color-primary">Color secundario</label>
+                            <input type="color" id="color-primary" value="#3b82f6">
+                        </div>
+                        
+                        <div class="color-option">
+                            <label for="color-accent">Color de acento</label>
+                            <input type="color" id="color-accent" value="#ec4899">
+                        </div>
+                    </div>
+                    
+                    <div class="theme-options">
+                        <h3>Preferencias de tema</h3>
+                        <div class="theme-buttons">
+                            <button type="button" class="theme-btn" data-theme="light">
+                                <i class="fas fa-sun"></i> Claro
+                            </button>
+                            <button type="button" class="theme-btn active" data-theme="dark">
+                                <i class="fas fa-moon"></i> Oscuro
+                            </button>
+                            <button type="button" class="theme-btn" data-theme="system">
+                                <i class="fas fa-desktop"></i> Sistema
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="configuracion-seccion">
+                    <h2><i class="fas fa-border-style"></i> Diseño</h2>
+                    
+                    <div class="design-option">
+                        <label class="switch">
+                            <input type="checkbox" id="compact-mode" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span>Modo compacto</span>
+                    </div>
+                    
+                    <div class="design-option">
+                        <label class="switch">
+                            <input type="checkbox" id="animations" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span>Animaciones</span>
+                    </div>
+                    
+                    <div class="design-option">
+                        <label class="switch">
+                            <input type="checkbox" id="rounded-corners">
+                            <span class="slider round"></span>
+                        </label>
+                        <span>Esquinas redondeadas</span>
+                    </div>
+                </div>
+                
+                <div class="configuracion-actions">
+                    <button type="button" class="btn-guardar" id="save-settings">
+                        <i class="fas fa-save"></i> Guardar cambios
+                    </button>
+                    <button type="button" class="btn-reset" id="reset-settings">
+                        <i class="fas fa-undo"></i> Restablecer
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/Ecomers/js/configuracion.js"></script>
+    <script src="/Ecomers/js/sidebar.js"></script>
+</body>
+</html>

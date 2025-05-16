@@ -1,0 +1,241 @@
+
+.configuracion-header {
+    margin-bottom: 2rem;
+}
+
+.subtitulo {
+    color: var(--clr-main-light);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.configuracion-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.configuracion-seccion {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.configuracion-seccion h2 {
+    color: var(--clr-main);
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.color-picker-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.color-option {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.color-option label {
+    font-weight: 500;
+    color: var(--clr-main-light);
+}
+
+.color-option input[type="color"] {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.theme-options {
+    margin-top: 2rem;
+}
+
+.theme-options h3 {
+    font-size: 1rem;
+    color: var(--clr-main-light);
+    margin-bottom: 1rem;
+}
+
+.theme-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.theme-btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    background: #f1f5f9;
+    color: var(--clr-main-light);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.theme-btn.active {
+    background: var(--clr-primary);
+    color: white;
+}
+
+.theme-btn:hover:not(.active) {
+    background: #e2e8f0;
+}
+
+.design-option {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: black;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: var(--clr-primary);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 24px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.preference-option {
+    margin-bottom: 1.5rem;
+}
+
+.preference-option label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--clr-main-light);
+}
+
+.preference-option select {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e2e8f0;
+    background-color: white;
+}
+
+.preference-option input[type="range"] {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+#font-size-value {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--clr-main-light);
+}
+
+.configuracion-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.btn-guardar, .btn-reset {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-guardar {
+    background: var(--clr-primary);
+    color: white;
+    border: none;
+}
+
+.btn-guardar:hover {
+    background: var(--clr-primary-dark);
+    transform: translateY(-2px);
+}
+
+.btn-reset {
+    background: transparent;
+    color: var(--clr-main-light);
+    border: 1px solid #e2e8f0;
+}
+
+.btn-reset:hover {
+    background: #f8fafc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .theme-buttons {
+        flex-direction: column;
+    }
+    
+    .configuracion-actions {
+        flex-direction: column;
+    }
+    
+    .btn-guardar, .btn-reset {
+        width: 100%;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - EVOshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/Ecomers/css/main.css">
+    <link rel="stylesheet" href="/Ecomers/css/usuario.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo">EVOshop</div>
+                <div class="user-status">
+                    <i class="fas fa-circle online-icon"></i>
+                    <span>En línea</span>
+                </div>
+            </div>
+            
+            <nav class="menu">
+                <button class="boton-menu" onclick="window.location.href='index.html'">
+                    <i class="fas fa-home"></i> Inicio
+                </button>
+                <button class="boton-menu active">
+                    <i class="fas fa-user"></i> Perfil
+                </button>
+                <button class="boton-menu" onclick="window.location.href='historial.html'">
+                    <i class="fas fa-history"></i> Historial
+                </button>
+                <button class="boton-menu" onclick="window.location.href='configuracion.html'">
+                    <i class="fas fa-cog"></i> Configuración
+                </button>
+                <button class="boton-menu" id="logout">
+                    <i class="fas fa-sign-out-alt"    onclick="window.location.href='login.html'"></i> Cerrar Sesión
+                </button>
+            </nav>
+         
+            <div class="sidebar-footer">
+                <p>EVOshop v2.0</p>
+                <p>&copy; 2025 Todos los derechos reservados</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <div class="profile-header">
+                <h1 class="titulo-principal">
+                    <span>Mi Perfil</span>
+                    <div class="title-decoration"></div>
+                </h1>
+            </div>
+            
+            <div class="profile-container">
+                <div class="profile-card">
+                    <div class="profile-image-container">
+                        <img src="/Ecomers/img/usuarios/juan.png" alt="Foto de perfil" class="perfil-imagen">
+                        <button class="change-photo-btn">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="profile-info">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-user-tag"></i> Nombre:</span>
+                            <span class="info-value">Juan Avalos</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-envelope"></i> Correo:</span>
+                            <span class="info-value">juan@email.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-crown"></i> Membresía:</span>
+                            <span class="info-value membership-badge">Profesional</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-calendar-alt"></i> Miembro desde:</span>
+                            <span class="info-value">15 Marzo 2024</span>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-actions">
+                        <button class="perfil-editar">
+                            <i class="fas fa-edit"></i> Editar Perfil
+                        </button>
+                        <button class="password-change">
+                            <i class="fas fa-lock"></i> Cambiar Contraseña
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Compras</h3>
+                            <p>12 órdenes</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Favoritos</h3>
+                            <p>8 productos</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Descuento</h3>
+                            <p>15% membresía</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const logoutButton = document.getElementById("logout");
+            if (logoutButton) {
+                logoutButton.addEventListener("click", function () {
+                    localStorage.clear();
+                    sessionStorage.clear();
+                    window.location.href = "login.html";
+                });
+            }
+        });
+    </script>
+</body>
+</html>

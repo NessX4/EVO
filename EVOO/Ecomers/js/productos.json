@@ -1,0 +1,885 @@
+
+[
+    {
+            "id": "abrigo-01",
+            "titulo": "Abrigo de lana oversize",
+            "imagen": "./img/abrigos/01.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Zara",
+            "precio": 89.99,
+            "descripcion": "Abrigo de lana 100% con corte oversize, disponible en 4 colores neutros.",
+            "tallas": ["S", "M", "L", "XL"],
+            "colores": ["Beige", "Negro", "Gris", "Camel"]
+        },
+        {
+            "id": "abrigo-02",
+            "titulo": "Chaqueta parka invierno",
+            "imagen": "./img/abrigos/02.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "HyM",
+            "precio": 129.50,
+            "descripcion": "Parka impermeable con relleno térmico para temperaturas bajo cero.",
+            "tallas": ["XS", "S", "M", "L"],
+            "colores": ["Verde militar", "Negro"]
+        },
+        {
+            "id": "abrigo-03",
+            "titulo": "Abrigo de paño premium",
+            "imagen": "./img/abrigos/03.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Boss",
+            "precio": 459.00,
+            "descripcion": "Abrigo de paño italiano con corte slim fit y detalles en cuero.",
+            "tallas": ["S", "M", "L"],
+            "colores": ["Azul marino", "Gris oscuro"]
+        },
+        {
+            "id": "abrigo-04",
+            "titulo": "Chaqueta softshell deportiva",
+            "imagen": "./img/abrigos/04.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Lacoste",
+            "precio": 179.95,
+            "descripcion": "Chaqueta técnica ligera con protección contra el viento y la lluvia.",
+            "tallas": ["M", "L", "XL"],
+            "colores": ["Rojo", "Azul", "Blanco"]
+        },
+        {
+            "id": "abrigo-05",
+            "titulo": "Gabardina clásica",
+            "imagen": "./img/abrigos/05.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Sfera",
+            "precio": 149.99,
+            "descripcion": "Gabardina de algodón reciclado con cinturón ajustable.",
+            "tallas": ["XS", "S", "M", "L", "XL"],
+            "colores": ["Beige", "Azul marino"]
+        },
+        {
+            "id": "abrigo-06",
+            "titulo": "Abrigo Largo Solapa",
+            "imagen": "./img/abrigos/06.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "CyA",
+            "precio": 325.00,
+            "descripcion": "Abrigo largo con solapa americana y silueta holgada en tejido premium.",
+            "tallas": ["34", "36", "38", "40", "42"],
+            "colores": ["Gris antracita", "Camel"]
+        },
+        {
+            "id": "abrigo-07",
+            "titulo": "Abrigo Teddy Corto",
+            "imagen": "./img/abrigos/07.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "CyA",
+            "precio": 350.00,
+            "descripcion": "Abrigo corto en textura pelo de camello con cierre frontal de cremallera.",
+            "tallas": ["XXS", "XS", "S", "M"],
+            "colores": ["Marrón chocolate", "Negro"]
+        },
+        {
+            "id": "abrigo-08",
+            "titulo": "Sudadera con Cierre y Gorro Beige",
+            "imagen": "./img/abrigos/08.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Cuidado con el perro",
+            "precio": 89.95,
+            "descripcion": "Sudadera con estampado urbano, cierre frontal y gorro ajustable.",
+            "tallas": ["S", "M", "L"],
+            "colores": ["Beige", "Verde oliva"]
+        },
+        {
+            "id": "abrigo-09",
+            "titulo": "Sudadera con Doble Estampado Beige",
+            "imagen": "./img/abrigos/09.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Cuidado con el perro",
+            "precio": 95.50,
+            "descripcion": "Sudadera con capucha y estampados vanguardistas en frente y espalda.",
+            "tallas": ["XS", "S", "M", "L"],
+            "colores": ["Beige roto", "Gris melange"]
+        },
+        {
+            "id": "abrigo-10",
+            "titulo": "Sudadera con Capucha y Bordado",
+            "imagen": "./img/abrigos/10.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Cuidado con el perro",
+            "precio": 85.00,
+            "descripcion": "Sudadera combinada con capucha y bordado artesanal en pecho.",
+            "tallas": ["M", "L", "XL"],
+            "colores": ["Azul petróleo", "Gris oscuro"]
+        },
+        {
+            "id": "abrigo-11",
+            "titulo": "Gabardina de botonadura doble",
+            "imagen": "./img/abrigos/11.avif",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "HyM",
+            "precio": 199.99,
+            "descripcion": "Gabardina elegante con botonadura doble en tejido resistente al agua.",
+            "tallas": ["36", "38", "40", "42"],
+            "colores": ["Azul noche", "Verde bosque"]
+        },
+        {
+            "id": "abrigo-12",
+            "titulo": "ABRIGO CON LANA",
+            "imagen": "./img/abrigos/12.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Zara",
+            "precio": 229.00,
+            "descripcion": "Abrigo straight fit en lana merino con forro interior de seda.",
+            "tallas": ["XS", "S", "M"],
+            "colores": ["Gris perla", "Borgoña"]
+        },
+        {
+            "id": "abrigo-13",
+            "titulo": "sudadera con capucha roja",
+            "imagen": "./img/abrigos/13.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "664",
+            "precio": 120.00,
+            "descripcion": "Sudadera con capucha en vibrante color rojo y tejido polar.",
+            "tallas": ["S", "M", "L", "XL"],
+            "colores": ["Rojo", "Negro"]
+        },
+        {
+            "id": "abrigo-14",
+            "titulo": "Chamarra de Track Paris French Made para Hombre",
+            "imagen": "./img/abrigos/14.avif",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Lacoste",
+            "precio": 275.00,
+            "descripcion": "Chamarra deportiva con tecnología térmica y diseño francés.",
+            "tallas": ["38", "40", "42", "44"],
+            "colores": ["Azul Francia", "Blanco"]
+        },
+        {
+            "id": "abrigo-15",
+            "titulo": "Abrigo corto cruzado slim fit en mezcla de lana",
+            "imagen": "./img/abrigos/15.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Boss",
+            "precio": 599.00,
+            "descripcion": "Abrigo slim fit en mezcla de lana con cierre cruzado y detalles en cuero.",
+            "tallas": ["46", "48", "50"],
+            "colores": ["Gris marengo", "Azul real"]
+        },
+        {
+            "id": "abrigo-16",
+            "titulo": "Abrigo slim fit en lana virgen y cashmere",
+            "imagen": "./img/abrigos/16.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Boss",
+            "precio": 699.00,
+            "descripcion": "Abrigo formal en lana virgen y cashmere con forro de seda.",
+            "tallas": ["48", "50", "52"],
+            "colores": ["Negro", "Carbón"]
+        },
+        {
+            "id": "abrigo-17",
+            "titulo": "Abrigo midi lana doble botonadura",
+            "imagen": "./img/abrigos/17.avif",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Mango",
+            "precio": 189.95,
+            "descripcion": "Abrigo midi en mezcla de lana con doble botonadura y corte estructurado.",
+            "tallas": ["34", "36", "38"],
+            "colores": ["Verde botella", "Taupe"]
+        },
+        {
+            "id": "abrigo-18",
+            "titulo": "Abrigo lana doble botonadura",
+            "imagen": "./img/abrigos/18.avif",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Mango",
+            "precio": 209.00,
+            "descripcion": "Abrigo cruzado en lana reciclada con diseño sostenible.",
+            "tallas": ["36", "38", "40"],
+            "colores": ["Azul denim", "Gris piedra"]
+        },
+        {
+            "id": "abrigo-19",
+            "titulo": "Abrigo lana doble botonadura",
+            "imagen": "./img/abrigos/19.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Sfera",
+            "precio": 179.00,
+            "descripcion": "Abrigo de lana con solapa y mangas con detalles de botones metálicos.",
+            "tallas": ["S", "M", "L"],
+            "colores": ["Marrón tostado", "Gris perla"]
+        },
+        {
+            "id": "abrigo-20",
+            "titulo": "Abrigo confort",
+            "imagen": "./img/abrigos/20.jpg",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Sfera",
+            "precio": 165.00,
+            "descripcion": "Abrigo ultraligero con solapa y diseño ergonómico para máximo confort.",
+            "tallas": ["XS", "S", "M"],
+            "colores": ["Verde salvia", "Azul pizarra"]
+        },
+        {
+            "id": "abrigo-21",
+            "titulo": "Abrigo Largo Cobre Cuello V",
+            "imagen": "./img/abrigos/21.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Lob",
+            "precio": 349.00,
+            "descripcion": "Abrigo formal largo con cuello en V y tejido de lana merino.",
+            "tallas": ["40", "42", "44"],
+            "colores": ["Gris oscuro", "Azul marino"]
+        },
+        {
+            "id": "abrigo-22",
+            "titulo": "Abrigo Tipo Piel Con Solapa",
+            "imagen": "./img/abrigos/22.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Lob",
+            "precio": 399.00,
+            "descripcion": "Abrigo tipo piel ecológica con solapa y detalles en cuero vegano.",
+            "tallas": ["38", "40", "42"],
+            "colores": ["Marrón café", "Negro"]
+        },
+        {
+            "id": "abrigo-23",
+            "titulo": "Abrigo Largo Tipo Espiga",
+            "imagen": "./img/abrigos/23.webp",
+            "categoria": { "nombre": "Abrigos", "id": "abrigos" },
+            "marca": "Lob",
+            "precio": 279.00,
+            "descripcion": "Abrigo largo en flannel gris jaspe con diseño moderno y ajuste perfecto.",
+            "tallas": ["S", "M", "L"],
+            "colores": ["Gris jaspe", "Azul noche"]
+        },
+    
+
+
+
+
+    {
+        "id": "camiseta-01",
+        "titulo": "Camiseta básica algodón",
+        "imagen": "./img/camisetas/01.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Cuidado con el perro",
+        "precio": 12.90,
+        "descripcion": "Camiseta 100% algodón orgánico con corte regular.",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Blanco", "Negro", "Gris", "Azul"]
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Camiseta estampada vintage",
+        "imagen": "./img/camisetas/02.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Lob",
+        "precio": 19.95,
+        "descripcion": "Camiseta con estampado retro y tejido envejecido.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Blanco hueso", "Rosa palo"]
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Polo clásico piqué",
+        "imagen": "./img/camisetas/03.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Mango",
+        "precio": 39.00,
+        "descripcion": "Polo de piqué de algodón con diseño minimalista.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Blanco", "Negro", "Azul"]
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Playera Manga Corta Toy Story",
+        "imagen": "./img/camisetas/04.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "CyA",
+        "precio": 24.99,
+        "descripcion": "Camiseta casual con mangas en contraste.",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Blanco/Negro", "Azul/Blanco"]
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Camiseta oversize gráfica",
+        "imagen": "./img/camisetas/05.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "664",
+        "precio": 29.50,
+        "descripcion": "Camiseta oversize con estampado urbano.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Blanco"]
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Camiseta lino verano",
+        "imagen": "./img/camisetas/06.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Zara",
+        "precio": 29.95,
+        "descripcion": "Camiseta de lino con corte relajado para verano.",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Crudo", "Azul claro"]
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Camiseta cuello vuelto",
+        "imagen": "./img/camisetas/07.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "HyM",
+        "precio": 22.00,
+        "descripcion": "Camiseta de algodón con cuello vuelto.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Blanco", "Negro"]
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Camiseta básica clásica",
+        "imagen": "./img/camisetas/08.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Boss",
+        "precio": 79.99,
+        "descripcion": "Camiseta premium de algodón pima.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Blanco", "Negro", "Gris"]
+    },
+    {
+        "id": "camiseta-09",
+        "titulo": "Playera Manga Corta The Office",
+        "imagen": "./img/camisetas/09.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "CyA",
+        "precio": 240.00,
+        "descripcion": "Camiseta con estampado temático de la serie The Office.",
+        "tallas": ["XS", "S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris heather", "Blanco hueso"]
+    },
+    {
+        "id": "camiseta-10",
+        "titulo": "Playera Negra Relaxed",
+        "imagen": "./img/camisetas/10.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "CyA",
+        "precio": 299.00,
+        "descripcion": "Camiseta relaxed fit en algodón peinado premium.",
+        "tallas": ["M", "L", "XL", "XXL"],
+        "colores": ["Verde militar", "Negro"]
+    },
+    {
+        "id": "camiseta-11",
+        "titulo": "3 Pack Camiseta Sin Manga",
+        "imagen": "./img/camisetas/11.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Cuidado con el perro",
+        "precio": 175.00,
+        "descripcion": "Pack de 3 camisetas sin manga en algodón transpirable.",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Blanco", "Negro", "Gris"]
+    },
+    {
+        "id": "camiseta-12",
+        "titulo": "Playera oversized",
+        "imagen": "./img/camisetas/12.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "HyM",
+        "precio": 185.00,
+        "descripcion": "Playera oversized en punto suave de algodón con cuello acanalado.",
+        "tallas": ["XS", "S", "M"],
+        "colores": ["Verde oliva", "Beige"]
+    },
+    {
+        "id": "camiseta-13",
+        "titulo": "Playera Slim Fit en algodón Pima",
+        "imagen": "./img/camisetas/13.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "HyM",
+        "precio": 195.00,
+        "descripcion": "Playera slim-fit en algodón pima de alta calidad.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Verde bosque", "Azul marino"]
+    },
+    {
+        "id": "camiseta-14",
+        "titulo": "PLAYERA TEXTO CONTRASTE",
+        "imagen": "./img/camisetas/14.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Zara",
+        "precio": 34.99,
+        "descripcion": "Camiseta con texto en contraste y corte moderno.",
+        "tallas": ["XXS", "XS", "S", "M"],
+        "colores": ["Verde esmeralda", "Blanco"]
+    },
+    {
+        "id": "camiseta-15",
+        "titulo": "PLAYERA BÁSICA ALGODÓN",
+        "imagen": "./img/camisetas/15.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Zara",
+        "precio": 39.99,
+        "descripcion": "Playera básica en algodón orgánico con costuras reforzadas.",
+        "tallas": ["S", "M", "L", "XL", "XXL"],
+        "colores": ["Verde menta", "Crudo"]
+    },
+    {
+        "id": "camiseta-16",
+        "titulo": "PLAYERA LOGO 664",
+        "imagen": "./img/camisetas/16.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "664",
+        "precio": 225.00,
+        "descripcion": "Playera con logo bordado en pecho y tejido premium.",
+        "tallas": ["M", "L", "XL"],
+        "colores": ["Verde militar", "Gris oscuro"]
+    },
+    {
+        "id": "camiseta-17",
+        "titulo": "PLAYERA EDICION ILIMITADA",
+        "imagen": "./img/camisetas/17.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "664",
+        "precio": 250.00,
+        "descripcion": "Edición especial con estampado único y numerado.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Verde militar", "Negro"]
+    },
+    {
+        "id": "camiseta-18",
+        "titulo": "PLAYERA NEGRA TIJUANA REPUBLIC",
+        "imagen": "./img/camisetas/18.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "664",
+        "precio": 275.00,
+        "descripcion": "Playera conmemorativa con estampado de edición limitada.",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Negro", "Blanco"]
+    },
+    {
+        "id": "camiseta-19",
+        "titulo": "Playera de algodón grueso con logo",
+        "imagen": "./img/camisetas/19.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Lacoste",
+        "precio": 89.95,
+        "descripcion": "Playera gruesa de algodón con icónico logo de cocodrilo.",
+        "tallas": ["36", "38", "40", "42"],
+        "colores": ["Verde Lacoste", "Blanco"]
+    },
+    {
+        "id": "camiseta-20",
+        "titulo": "Playera deportiva de algodón ultra seco con logo",
+        "imagen": "./img/camisetas/20.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Lacoste",
+        "precio": 95.00,
+        "descripcion": "Tecnología ultra seca para máxima comodidad deportiva.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Azul marino", "Negro"]
+    },
+    {
+        "id": "camiseta-21",
+        "titulo": "Playera para hombre en piqué elástico con cuello a rayas",
+        "imagen": "./img/camisetas/21.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Lacoste",
+        "precio": 110.00,
+        "descripcion": "Piqué elástico con detalles en rayas en el cuello.",
+        "tallas": ["38", "40", "42", "44"],
+        "colores": ["Blanco", "Azul"]
+    },
+    {
+        "id": "camiseta-22",
+        "titulo": "Camisa playera regular fit con estampado integral",
+        "imagen": "./img/camisetas/22.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Boss",
+        "precio": 129.99,
+        "descripcion": "Camisa playera con estampado tropical y corte regular.",
+        "tallas": ["46", "48", "50", "52"],
+        "colores": ["Azul", "Blanco"]
+    },
+    {
+        "id": "camiseta-23",
+        "titulo": "Camiseta de algodón elástico con logo bordado",
+        "imagen": "./img/camisetas/23.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Boss",
+        "precio": 139.99,
+        "descripcion": "Camiseta premium con logo bordado y tejido elástico.",
+        "tallas": ["44", "46", "48", "50"],
+        "colores": ["Negro", "Gris"]
+    },
+    {
+        "id": "camiseta-24",
+        "titulo": "Camiseta algodón mangas crochet",
+        "imagen": "./img/camisetas/24.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Mango",
+        "precio": 45.00,
+        "descripcion": "Camiseta con detalles de crochet en mangas y cuello.",
+        "tallas": ["34", "36", "38", "40"],
+        "colores": ["Rosa palo", "Crudo"]
+    },
+    {
+        "id": "camiseta-25",
+        "titulo": "Camiseta lino manga corta",
+        "imagen": "./img/camisetas/25.avif",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Mango",
+        "precio": 49.95,
+        "descripcion": "Camiseta de lino puro con corte relaxed para verano.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Azul claro", "Beige"]
+    },
+    {
+        "id": "camiseta-26",
+        "titulo": "Camiseta bordada",
+        "imagen": "./img/camisetas/26.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Sfera",
+        "precio": 59.00,
+        "descripcion": "Camiseta con bordados artesanales y detalles de botones.",
+        "tallas": ["XS", "S", "M"],
+        "colores": ["Rojo", "Blanco"]
+    },
+    {
+        "id": "camiseta-27",
+        "titulo": "Camiseta Sagitario",
+        "imagen": "./img/camisetas/27.jpg",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Sfera",
+        "precio": 65.00,
+        "descripcion": "Camiseta con estampado zodiacal de Sagitario.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Azul", "Negro"]
+    },
+    {
+        "id": "camiseta-28",
+        "titulo": "Camisa Manga Corta Cuello Regular",
+        "imagen": "./img/camisetas/28.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Lob",
+        "precio": 75.00,
+        "descripcion": "Camisa casual de manga corta con cuello regular.",
+        "tallas": ["38", "40", "42"],
+        "colores": ["Azul claro", "Blanco"]
+    },
+    {
+        "id": "camiseta-29",
+        "titulo": "Camisa Manga Larga Básica",
+        "imagen": "./img/camisetas/29.webp",
+        "categoria": { "nombre": "Camisetas", "id": "camisetas" },
+        "marca": "Lob",
+        "precio": 85.00,
+        "descripcion": "Camisa básica de manga larga para look casual.",
+        "tallas": ["40", "42", "44"],
+        "colores": ["Gris", "Negro"]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": "pantalon-01",
+        "titulo": "Chino slim fit",
+        "imagen": "./img/pantalones/01.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Lacoste",
+        "precio": 89.95,
+        "descripcion": "Pantalón chino de algodón con corte slim fit.",
+        "tallas": ["28", "30", "32", "34", "36"],
+        "colores": ["Beige", "Azul marino"]
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Jeans skinny rotos",
+        "imagen": "./img/pantalones/02.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Cuidado con el perro",
+        "precio": 49.50,
+        "descripcion": "Jeans con lavado vintage y detalles desgastados.",
+        "tallas": ["28", "29", "30", "31", "32", "33", "34"],
+        "colores": ["Azul claro", "Negro"]
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Pantalón jogger urbano",
+        "imagen": "./img/pantalones/03.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Zara",
+        "precio": 45.99,
+        "descripcion": "Jogger de algodón con bolsillos funcionales.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Negro", "Gris", "Verde militar"]
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Pantalón de vestir slim",
+        "imagen": "./img/pantalones/04.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Mango",
+        "precio": 59.95,
+        "descripcion": "Pantalón de vestir con corte slim y stretch.",
+        "tallas": ["30", "32", "34", "36"],
+        "colores": ["Gris", "Azul marino", "Negro"]
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Bermuda lino verano",
+        "imagen": "./img/pantalones/05.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Sfera",
+        "precio": 39.99,
+        "descripcion": "Bermuda de lino para looks casuales de verano.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Beige", "Azul claro", "Blanco"]
+    },
+    {
+        "id": "pantalon-06",
+        "titulo": "Pantalón Ancho Bolsillos",
+        "imagen": "./img/pantalones/06.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "CyA",
+        "precio": 399.00,
+        "descripcion": "Pantalón ancho con diseño moderno y múltiples bolsillos funcionales.",
+        "tallas": ["XS", "S", "M", "L", "XXL"],
+        "colores": ["Gris oscuro", "Verde militar", "Caqui"]
+    },
+    {
+        "id": "pantalon-07",
+        "titulo": "Pantalón Negro Fit Slim",
+        "imagen": "./img/pantalones/07.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "CyA",
+        "precio": 425.00,
+        "descripcion": "Pantalón slim fit en tejido elástico para mayor comodidad.",
+        "tallas": ["28", "30", "32", "34", "36"],
+        "colores": ["Negro", "Gris antracita", "Azul noche"]
+    },
+    {
+        "id": "pantalon-08",
+        "titulo": "Pantalón Convertible Cargo Verde",
+        "imagen": "./img/pantalones/08.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "CyA",
+        "precio": 450.00,
+        "descripcion": "Pantalón cargo convertible con rodilleras reforzadas.",
+        "tallas": ["M", "L", "XL", "XXL"],
+        "colores": ["Verde oliva", "Marrón", "Negro"]
+    },
+    {
+        "id": "pantalon-09",
+        "titulo": "Jogger Cargo Negro",
+        "imagen": "./img/pantalones/09.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Cuidado con el perro",
+        "precio": 220.00,
+        "descripcion": "Jogger estilo cargo con bolsillos laterales y ajuste en tobillo.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Negro", "Gris oscuro"]
+    },
+    {
+        "id": "pantalon-10",
+        "titulo": "Pantalón Beige",
+        "imagen": "./img/pantalones/10.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Cuidado con el perro",
+        "precio": 210.00,
+        "descripcion": "Pantalón beige con jareta y detalles costureros.",
+        "tallas": ["XS", "S", "M", "L"],
+        "colores": ["Beige", "Marrón claro"]
+    },
+    {
+        "id": "pantalon-11",
+        "titulo": "Pantalón ancho",
+        "imagen": "./img/pantalones/11.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "HyM",
+        "precio": 175.00,
+        "descripcion": "Pantalón de corte amplio en punto con cintura elástica.",
+        "tallas": ["S", "M", "L", "XL", "XXL"],
+        "colores": ["Blanco roto", "Azul claro"]
+    },
+    {
+        "id": "pantalon-12",
+        "titulo": "Slim Mom High Ankle Jeans",
+        "imagen": "./img/pantalones/12.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "HyM",
+        "precio": 185.00,
+        "descripcion": "Jeans de cinco bolsillos en denim ligeramente stretch con corte mom.",
+        "tallas": ["24", "26", "28", "30"],
+        "colores": ["Azul denim", "Negro"]
+    },
+    {
+        "id": "pantalon-13",
+        "titulo": "Pantalón en mezcla de lino",
+        "imagen": "./img/pantalones/13.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "HyM",
+        "precio": 190.00,
+        "descripcion": "Pantalón vaporoso de mezcla de lino con bolsillos delanteros.",
+        "tallas": ["S", "M", "L"],
+        "colores": ["Crudo", "Azul claro"]
+    },
+    {
+        "id": "pantalon-14",
+        "titulo": "PANTALÓN TIRO ALTO",
+        "imagen": "./img/pantalones/14.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Zara",
+        "precio": 65.00,
+        "descripcion": "Pantalón de tiro alto con detalle de costuras marcadas y corte recto.",
+        "tallas": ["36", "38", "40", "42"],
+        "colores": ["Negro", "Blanco"]
+    },
+    {
+        "id": "pantalon-15",
+        "titulo": "PANTALÓN FLARE FIT ESTRUCTURA LIMITED EDITION",
+        "imagen": "./img/pantalones/15.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Zara",
+        "precio": 75.00,
+        "descripcion": "Pantalón flare fit en algodón con cinturón incluido.",
+        "tallas": ["34", "36", "38", "40"],
+        "colores": ["Azul marino", "Verde oscuro"]
+    },
+    {
+        "id": "pantalon-16",
+        "titulo": "Pantalones de golf ultra secos y ajustados",
+        "imagen": "./img/pantalones/16.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Lacoste",
+        "precio": 120.00,
+        "descripcion": "Pantalón de golf con tecnología dry-fit y cinco bolsillos.",
+        "tallas": ["30", "32", "34", "36"],
+        "colores": ["Azul marino", "Gris"]
+    },
+    {
+        "id": "pantalon-17",
+        "titulo": "Pantalones de golf ultra secos y ajustados",
+        "imagen": "./img/pantalones/17.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Lacoste",
+        "precio": 125.00,
+        "descripcion": "Pantalón de golf con tejido transpirable y ajuste perfecto.",
+        "tallas": ["28", "30", "32", "34"],
+        "colores": ["Verde botella", "Negro"]
+    },
+    {
+        "id": "pantalon-18",
+        "titulo": "Pantalones slim fit de algodón elástico",
+        "imagen": "./img/pantalones/18.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Boss",
+        "precio": 350.00,
+        "descripcion": "Pantalones slim fit con tejido elástico para máxima movilidad.",
+        "tallas": ["46", "48", "50", "52"],
+        "colores": ["Azul noche", "Gris claro"]
+    },
+    {
+        "id": "pantalon-19",
+        "titulo": "Pantalones formales en lona de lino",
+        "imagen": "./img/pantalones/19.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Boss",
+        "precio": 375.00,
+        "descripcion": "Pantalones formales con trabillas para cinturón y pliegues.",
+        "tallas": ["44", "46", "48", "50"],
+        "colores": ["Beige", "Azul claro"]
+    },
+    {
+        "id": "pantalon-20",
+        "titulo": "Pantalón recto traje tiro alto",
+        "imagen": "./img/pantalones/20.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Mango",
+        "precio": 85.00,
+        "descripcion": "Pantalón de ceremonia con corte recto y tiro alto.",
+        "tallas": ["38", "40", "42", "44"],
+        "colores": ["Negro", "Gris oscuro"]
+    },
+    {
+        "id": "pantalon-21",
+        "titulo": "Pantalón cargo bajo ajustable",
+        "imagen": "./img/pantalones/21.avif",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Mango",
+        "precio": 65.00,
+        "descripcion": "Pantalón cargo con cintura ajustable y múltiples bolsillos.",
+        "tallas": ["S", "M", "L", "XL"],
+        "colores": ["Verde militar", "Marrón"]
+    },
+    {
+        "id": "pantalon-22",
+        "titulo": "Pantalón pinzas",
+        "imagen": "./img/pantalones/22.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Sfera",
+        "precio": 55.00,
+        "descripcion": "Pantalón de pinzas con corte clásico y tejido ligero.",
+        "tallas": ["36", "38", "40", "42"],
+        "colores": ["Azul marino", "Gris"]
+    },
+    {
+        "id": "pantalon-23",
+        "titulo": "Pantalón talle alto",
+        "imagen": "./img/pantalones/23.jpg",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Sfera",
+        "precio": 60.00,
+        "descripcion": "Pantalón de talle alto con cremallera oculta y corte recto.",
+        "tallas": ["34", "36", "38", "40"],
+        "colores": ["Negro", "Blanco"]
+    },
+    {
+        "id": "pantalon-24",
+        "titulo": "Jeans Súper Confort Five Pocket",
+        "imagen": "./img/pantalones/24.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Lob",
+        "precio": 95.00,
+        "descripcion": "Jeans de cinco bolsillos con tejido super elástico.",
+        "tallas": ["25", "27", "29", "31"],
+        "colores": ["Azul claro", "Negro"]
+    },
+    {
+        "id": "pantalon-25",
+        "titulo": "Jeans Denim Wide Leg",
+        "imagen": "./img/pantalones/25.webp",
+        "categoria": { "nombre": "Pantalones", "id": "pantalones" },
+        "marca": "Lob",
+        "precio": 105.00,
+        "descripcion": "Jeans wide leg con cintura media y detalles desgastados.",
+        "tallas": ["26", "28", "30", "32"],
+        "colores": ["Azul denim", "Blanco"]
+    }
+]

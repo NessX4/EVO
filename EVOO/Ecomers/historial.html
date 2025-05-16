@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Compras - EVOshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/Ecomers/css/main.css">
+    <link rel="stylesheet" href="/Ecomers/css/historial.css">
+    <link rel="stylesheet" href="/Ecomers/css/usuario.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="logo-container">
+                <div class="logo">EVOshop</div>
+                <div class="user-status">
+                    <i class="fas fa-circle online-icon"></i>
+                    <span>En línea</span>
+                </div>
+            </div>
+            
+            <nav class="menu">
+                <button class="boton-menu" onclick="window.location.href='index.html'">
+                    <i class="fas fa-home"></i> Inicio
+                </button>
+                <button class="boton-menu" onclick="window.location.href='usuario.html'">
+                    <i class="fas fa-user"></i> Perfil
+                </button>
+                <button class="boton-menu active">
+                    <i class="fas fa-history"></i> Historial
+                </button>
+                <button class="boton-menu" onclick="window.location.href='configuracion.html'">
+                    <i class="fas fa-cog"></i> Configuración
+                </button>
+                <button class="boton-menu" id="logout">
+                    <i class="fas fa-sign-out-alt" onclick="window.location.href='login.html'"></i> Cerrar Sesión
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>EVOshop v2.0</p>
+                <p>&copy; 2025 Todos los derechos reservados</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="mobile-header">
+                <button class="menu-toggle" id="menuToggle">
+               
+                </button>
+              
+              
+            </header>
+
+            <div class="profile-header">
+                <h1 class="titulo-principal">
+                    <span>Historial de Compras</span>
+                    <div class="title-decoration"></div>
+                </h1>
+            </div>
+            
+            <div class="historial-container">
+                <div class="filtros-historial">
+                    <div class="filtro-group">
+                        <label for="ordenar"><i class="fas fa-sort"></i> Ordenar por:</label>
+                        <select id="ordenar" class="filtro-select">
+                            <option value="recientes">Más recientes</option>
+                            <option value="antiguos">Más antiguos</option>
+                            <option value="mayor">Mayor monto</option>
+                            <option value="menor">Menor monto</option>
+                        </select>
+                    </div>
+                    <div class="filtro-group">
+                        <label for="periodo"><i class="fas fa-calendar"></i> Período:</label>
+                        <select id="periodo" class="filtro-select">
+                            <option value="todos">Todos</option>
+                            <option value="mes">Último mes</option>
+                            <option value="trimestre">Últimos 3 meses</option>
+                            <option value="anio">Último año</option>
+                        </select>
+                    </div>
+                    <button class="filtro-btn">
+                        <i class="fas fa-filter"></i> Filtrar
+                    </button>
+                </div>
+
+                <div class="compras-list" id="historial-container"></div>
+                
+            </div>
+        </main>
+    </div>
+
+    <script src="/Ecomers/js/historial.js"></script>
+</body>
+</html>

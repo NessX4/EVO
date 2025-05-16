@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVOO - Registro</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rubik:wght@300;400;500&display=swap">
+  <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+
+  <div id="particles-js"></div>
+  
+ 
+  <div id="alert-container"></div>
+  
+  <div class="register-container">
+    <img src="img/logos/Evo1.png" alt="EVOO Logo" class="logo">
+    <h2>CREAR CUENTA</h2>
+    <form id="registerForm">
+      <input type="text" id="username" placeholder="USUARIO" required minlength="4">
+      <input type="email" id="email" placeholder="CORREO ELECTRÓNICO" required>
+      <input type="password" id="password" placeholder="CONTRASEÑA" required minlength="6">
+      <input type="password" id="confirmPassword" placeholder="CONFIRMAR CONTRASEÑA" required>
+      <button type="submit">REGISTRARSE</button>
+    </form>
+    <p>¿Ya tienes cuenta? <a href="login.html">INICIA SESIÓN AQUÍ</a></p>
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script type="module" src="js/auth.js"></script>
+  <script type="module" src="js/register.js"></script>
+</body>
+</html>
